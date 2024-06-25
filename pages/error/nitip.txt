@@ -1,0 +1,32 @@
+                        <form action="action/temp_edit_brg_masuk.php" method="POST" role="form">
+            <div class="form-group">
+                <input type="text" name="id_masuk_temp" value="<?php echo $id['id_masuk_temp'] ?>" readonly hidden>
+              <div class="row">
+                <label class="col-sm-3 control-label text-right">Kode Barang</label>         
+                <div class="col-sm-8"><input type="text" class="form-control" name="kode_barang" value="<?php echo $id['kode_barang'] ?>" readonly></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <label class="col-sm-3 control-label text-right">Nama Barang</label>         
+                <div class="col-sm-8"><input type="text" class="form-control" name="nama_barang" value="<?php echo $id['nama_barang'] ?>" readonly></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <label class="col-sm-3 control-label text-right">Harga</label>         
+                <div class="col-sm-8"><input type="text" class="form-control" name="harga" value="<?php echo $id['harga'] ?>" readonly></div>
+              </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <label class="col-sm-3 control-label text-right">Qty Masuk</label>         
+                <div class="col-sm-8"><input type="text" class="form-control" name="qty_masuk" value="<?php echo $id['qty_masuk'] ?>"></div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <input type="submit" name="submit" class="btn btn-primary" name="update" value="Update">
+              <button id="nosave" type="button" class="btn btn-danger pull-left" data-dismiss="modal">Batal</button>
+            </div>
+          </form>
